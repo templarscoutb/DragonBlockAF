@@ -26,5 +26,10 @@
       <option name="name" value="minecraft" />
       <option name="url" value="https://libraries.minecraft.net/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="chickenbones" />
+      <option name="name" value="chickenbones" />
+      <option name="url" value="https://chickenbones.net/maven/" />
+    </remote-repository>
   </component>
 </project>

@@ -2,6 +2,7 @@ package DragonBlock;
 
 
 import DragonBlock.item.ItemBattleArmor;
+import JinRyuu.DragonBC.common.DBCClient;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
