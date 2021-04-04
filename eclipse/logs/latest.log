@@ -1,2 +1,31 @@
-[11:08:43] [main/INFO]: Setting user: Player785
-[11:08:44] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:55:28] [main/INFO]: Setting user: Player823
+[15:55:30] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:55:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dragon Block C, FMLFileResourcePack:JinRyuu's JRMCore, FMLFileResourcePack:Dragon Block AF
+[15:55:39] [Sound Library Loader/INFO]: Sound engine started
+[15:55:40] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:55:40] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:55:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dragon Block C, FMLFileResourcePack:JinRyuu's JRMCore, FMLFileResourcePack:Dragon Block AF
+[15:55:44] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[15:55:44] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[15:55:45] [Sound Library Loader/INFO]: Sound engine started
+[15:55:52] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:55:52] [Server thread/INFO]: Generating keypair
+[15:55:52] [Server thread/INFO]: Preparing start region for level 0
+[15:55:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:55:53] [Server thread/INFO]: Player823[local:E:0a095fa2] logged in with entity id 580 at (268.9205375125817, 65.0, 220.2800103680157)
+[15:55:53] [Server thread/INFO]: Player823 joined the game
+[15:55:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2459ms behind, skipping 49 tick(s)
+[15:56:14] [Client thread/INFO]: Stopping!
+[15:56:14] [Server thread/INFO]: Stopping server
+[15:56:14] [Server thread/INFO]: Saving players
+[15:56:14] [Server thread/INFO]: Saving worlds
+[15:56:14] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[15:56:14] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[15:56:14] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[15:56:14] [Server thread/INFO]: Saving chunks for level 'Test'/Vegeta
+[15:56:14] [Server thread/INFO]: Saving chunks for level 'Test'/Namek
+[15:56:14] [Server thread/INFO]: Saving chunks for level 'Test'/Null Realm
+[15:56:14] [Server thread/INFO]: Saving chunks for level 'Test'/TimeChamber
+[15:56:15] [Server thread/INFO]: Saving chunks for level 'Test'/OtherWorld
+[15:56:15] [Client Shutdown Thread/INFO]: Stopping server
+[15:56:15] [Client Shutdown Thread/INFO]: Saving players
