@@ -13,10 +13,12 @@ public class ItemBattleArmor extends ItemArmor {
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
     {
+
         if(this.armorType == 2)
         {
-            return "dbaf:textures/models/armor/cheeselayer2.png";
+            return "dbaf:textures/models/armor/blackbattlearmorlayer2.png";
         }
-        return "dbaf:textures/models/armor/cheeselayer1.png";
+        return "dbaf:textures/models/armor/blackbattlearmorlayer1.png";
+
     }
 }
