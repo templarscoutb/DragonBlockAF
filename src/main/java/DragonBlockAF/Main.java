@@ -2,6 +2,8 @@ package DragonBlockAF;
 
 
 import DragonBlockAF.objects.armor.ArmorBase;
+import DragonBlockAF.proxy.ClientProxy;
+import DragonBlockAF.proxy.CommonProxy;
 import DragonBlockAF.util.reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -18,8 +20,8 @@ import net.minecraftforge.common.util.EnumHelper;
 public class Main
 {
     @SidedProxy(clientSide = reference.CLIENT, serverSide = reference.COMMON)
-    //public static CommonProxy proxyCommon;
-    //public static ClientProxy proxyClient;
+    public static CommonProxy proxyCommon;
+    public static ClientProxy proxyClient;
 
     public static Item battleArmorBlack_chest;
     public static Item battleArmorBlack_leggings;
@@ -28,7 +30,7 @@ public class Main
 
 
     @Mod.EventHandler
-    public void  preInit(FMLPreInitializationEvent event)
+    public void preInit(FMLPreInitializationEvent event)
     {
         ItemArmor.ArmorMaterial battleArmor = EnumHelper.addArmorMaterial("battleArmor",500,new int[]{0,25,25,25}, 30 );
 
@@ -39,16 +41,17 @@ public class Main
     }
 
     @Mod.EventHandler
-    public void  init(FMLInitializationEvent event)
+    public void init(FMLInitializationEvent event)
     {
         GameRegistry.registerItem(battleArmorBlack_chest, "battleArmorBlack_chest");
         GameRegistry.registerItem(battleArmorBlack_leggings, "battleArmorBlack_leggings");
         GameRegistry.registerItem(battleArmorBlack_boots, "battleArmorBlack_boots");
 
+        proxyClient.register_renderers();
     }
 
     @Mod.EventHandler
-    public void  postInit(FMLPostInitializationEvent event)
+    public void postInit(FMLPostInitializationEvent event)
     {
 
     }

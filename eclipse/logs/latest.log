@@ -1,42 +1,42 @@
-[23:11:23] [main/INFO]: Extra: []
-[23:11:23] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
-[23:11:23] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/templ/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[23:11:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[23:11:23] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[23:11:23] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[23:11:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[23:11:23] [main/INFO]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
-[23:11:23] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_281\jre
-[23:11:23] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[23:11:23] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
-[23:11:23] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:11:23] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[23:11:23] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[23:11:23] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[23:11:23] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
-[23:11:23] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
-[23:11:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:11:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:11:23] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[23:11:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:11:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:11:23] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:11:23] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[23:11:24] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[23:11:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:11:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:11:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:11:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:11:24] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[23:11:24] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[23:11:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[23:11:24] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[23:11:25] [main/INFO]: Setting user: Player872
-[23:11:26] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:11:27] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// Hi. I'm Minecraft, and I'm a crashaholic.
+[23:56:13] [main/INFO]: Extra: []
+[23:56:13] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
+[23:56:13] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/templ/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[23:56:13] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[23:56:13] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[23:56:13] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[23:56:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[23:56:13] [main/INFO]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[23:56:13] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_281\jre
+[23:56:13] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[23:56:13] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
+[23:56:13] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:56:13] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[23:56:13] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[23:56:13] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[23:56:13] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[23:56:13] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[23:56:13] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:56:13] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:56:13] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:56:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:56:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:56:13] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:56:13] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[23:56:14] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[23:56:14] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:56:14] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:56:14] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:56:14] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:56:14] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:56:14] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[23:56:14] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[23:56:14] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[23:56:15] [main/INFO]: Setting user: Player168
+[23:56:17] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:56:17] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
 
-Time: 4/28/21 11:11 PM
+Time: 4/28/21 11:56 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -51,26 +51,26 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_281, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 649093472 bytes (619 MB) / 1049100288 bytes (1000 MB) up to 15250489344 bytes (14544 MB)
+	Memory: 638525016 bytes (608 MB) / 1039663104 bytes (991 MB) up to 15250489344 bytes (14544 MB)
 	JVM Flags: 0 total; 
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.11' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
-[23:11:27] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[23:11:27] [Client thread/INFO]: MinecraftForge v10.13.4.1558 Initialized
-[23:11:27] [Client thread/INFO]: Replaced 183 ore recipies
-[23:11:27] [Client thread/INFO]: Completed early MinecraftForge initialization
-[23:11:27] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[23:11:27] [Client thread/INFO]: Searching C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\mods for mods
-[23:11:27] [Client thread/INFO]: Also searching C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\mods\1.7.10 for mods
-[23:11:28] [Client thread/INFO]: Attempting to reparse the mod container DragonBlockC-v1.4.72.jar
-[23:11:28] [Client thread/INFO]: Attempting to reparse the mod container JBRA-Client-v1.6.46.jar
-[23:11:28] [Client thread/INFO]: Attempting to reparse the mod container JRMCore-v1.3.33.jar
-[23:11:31] [Client thread/INFO]: Forge Mod Loader has identified 8 mods to load
-[23:11:32] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, jinryuudragonblockc, jinryuubetterrenderaddon, jinryuujrmcore, dbcaf] at CLIENT
-[23:11:32] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, jinryuudragonblockc, jinryuubetterrenderaddon, jinryuujrmcore, dbcaf] at SERVER
-[23:11:32] [Client thread/ERROR]: An error occured trying to load a proxy into {serverSide=dbcaf.mod.proxy.CommonProxy, clientSide=dbcaf.mod.proxy.ClientProxy}.DragonBlockAF.Main
+[23:56:17] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[23:56:17] [Client thread/INFO]: MinecraftForge v10.13.4.1558 Initialized
+[23:56:18] [Client thread/INFO]: Replaced 183 ore recipies
+[23:56:18] [Client thread/INFO]: Completed early MinecraftForge initialization
+[23:56:18] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[23:56:18] [Client thread/INFO]: Searching C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\mods for mods
+[23:56:18] [Client thread/INFO]: Also searching C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\mods\1.7.10 for mods
+[23:56:18] [Client thread/INFO]: Attempting to reparse the mod container DragonBlockC-v1.4.72.jar
+[23:56:18] [Client thread/INFO]: Attempting to reparse the mod container JBRA-Client-v1.6.46.jar
+[23:56:18] [Client thread/INFO]: Attempting to reparse the mod container JRMCore-v1.3.33.jar
+[23:56:22] [Client thread/INFO]: Forge Mod Loader has identified 8 mods to load
+[23:56:22] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, jinryuudragonblockc, jinryuubetterrenderaddon, jinryuujrmcore, dbcaf] at CLIENT
+[23:56:22] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, jinryuudragonblockc, jinryuubetterrenderaddon, jinryuujrmcore, dbcaf] at SERVER
+[23:56:22] [Client thread/ERROR]: An error occured trying to load a proxy into {serverSide=dbcaf.mod.proxy.CommonProxy, clientSide=dbcaf.mod.proxy.ClientProxy}.DragonBlockAF.Main
 java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_281]
@@ -117,8 +117,8 @@ java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
 Caused by: java.lang.NullPointerException
 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
 	... 41 more
-[23:11:32] [Client thread/ERROR]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
-[23:11:32] [Client thread/ERROR]: 
+[23:56:22] [Client thread/ERROR]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
+[23:56:22] [Client thread/ERROR]: 
 	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
 	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
 	UC	FML{7.10.99.99} [Forge Mod Loader] (forgeBin-1.7.10-10.13.4.1558-1.7.10.jar) 
@@ -128,8 +128,8 @@ Caused by: java.lang.NullPointerException
 	UC	jinryuudragonblockc{1.4.72} [Dragon Block C] (DragonBlockC-v1.4.72.jar) 
 	UC	jinryuubetterrenderaddon{1.6.46} [JinRyuu's Better Render Addon] (JBRA-Client-v1.6.46.jar) 
 	UE	dbcaf{0.0.1} [Dragon Block C AF] (modid-1.0.jar) 
-[23:11:32] [Client thread/ERROR]: The following problems were captured during this phase
-[23:11:32] [Client thread/ERROR]: Caught exception from dbcaf
+[23:56:22] [Client thread/ERROR]: The following problems were captured during this phase
+[23:56:22] [Client thread/ERROR]: Caught exception from dbcaf
 cpw.mods.fml.common.LoaderException: java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
 
 	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:76) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
@@ -186,10 +186,10 @@ Caused by: java.lang.NullPointerException
 	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_281]
 	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
 	... 35 more
-[23:11:32] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:349]: ---- Minecraft Crash Report ----
-// Who set us up the TNT?
+[23:56:22] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:349]: ---- Minecraft Crash Report ----
+// Why is it breaking :(
 
-Time: 4/28/21 11:11 PM
+Time: 4/28/21 11:56 PM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 cpw.mods.fml.common.LoaderException: java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
@@ -252,7 +252,7 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_281, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 414924328 bytes (395 MB) / 1229455360 bytes (1172 MB) up to 15250489344 bytes (14544 MB)
+	Memory: 408069848 bytes (389 MB) / 1237843968 bytes (1180 MB) up to 15250489344 bytes (14544 MB)
 	JVM Flags: 0 total; 
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
@@ -267,4 +267,4 @@ Details:
 	UC	jinryuubetterrenderaddon{1.6.46} [JinRyuu's Better Render Addon] (JBRA-Client-v1.6.46.jar) 
 	UE	dbcaf{0.0.1} [Dragon Block C AF] (modid-1.0.jar) 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.11' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
-[23:11:32] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:359]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\.\crash-reports\crash-2021-04-28_23.11.32-client.txt
+[23:56:22] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:359]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\.\crash-reports\crash-2021-04-28_23.56.22-client.txt
