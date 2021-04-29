@@ -1,39 +1,271 @@
-[18:06:37] [main/INFO]: Setting user: Player914
-[18:06:38] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:06:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dragon Block C, FMLFileResourcePack:JinRyuu's Better Render Addon, FMLFileResourcePack:JinRyuu's JRMCore, FMLFileResourcePack:Dragon Block AF
-[18:06:45] [Sound Library Loader/INFO]: Sound engine started
-[18:06:46] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[18:06:46] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[18:06:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dragon Block C, FMLFileResourcePack:JinRyuu's Better Render Addon, FMLFileResourcePack:JinRyuu's JRMCore, FMLFileResourcePack:Dragon Block AF
-[18:06:48] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[18:06:48] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[18:06:49] [Sound Library Loader/INFO]: Sound engine started
-[18:06:52] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:06:52] [Server thread/INFO]: Generating keypair
-[18:06:53] [Server thread/INFO]: Preparing start region for level 0
-[18:06:53] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:06:54] [Server thread/INFO]: Player914[local:E:4d14db44] logged in with entity id 374 at (-149.91969550135437, 80.55197498709033, 202.00124608871332)
-[18:06:54] [Server thread/INFO]: Player914 joined the game
-[18:06:59] [Server thread/INFO]: Player914 has just earned the achievement [Taking Inventory]
-[18:06:59] [Client thread/INFO]: [CHAT] Player914 has just earned the achievement [Taking Inventory]
-[18:07:26] [Server thread/INFO]: Saving and pausing game...
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/Vegeta
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/Namek
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/Null Realm
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/TimeChamber
-[18:07:26] [Server thread/INFO]: Saving chunks for level 'New World'/OtherWorld
-[18:07:27] [Server thread/INFO]: Stopping server
-[18:07:27] [Server thread/INFO]: Saving players
-[18:07:27] [Server thread/INFO]: Saving worlds
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/Vegeta
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/Namek
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/Null Realm
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/TimeChamber
-[18:07:27] [Server thread/INFO]: Saving chunks for level 'New World'/OtherWorld
-[18:07:28] [Client thread/INFO]: Stopping!
+[21:58:23] [main/INFO]: Extra: []
+[21:58:23] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
+[21:58:23] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/templ/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:58:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:58:23] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:58:23] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:58:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:58:23] [main/INFO]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[21:58:23] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_281, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_281\jre
+[21:58:23] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[21:58:23] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
+[21:58:23] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:58:23] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:58:23] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[21:58:23] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[21:58:23] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[21:58:23] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[21:58:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:58:23] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:58:23] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[21:58:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:58:23] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:58:23] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:58:23] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[21:58:24] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[21:58:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:58:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:58:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:58:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:58:25] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[21:58:25] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:58:25] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:58:25] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:58:26] [main/INFO]: Setting user: Player974
+[21:58:28] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:58:29] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 4/28/21 9:58 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 726636168 bytes (692 MB) / 881328128 bytes (840 MB) up to 15250489344 bytes (14544 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.11' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
+[21:58:29] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[21:58:29] [Client thread/INFO]: MinecraftForge v10.13.4.1558 Initialized
+[21:58:29] [Client thread/INFO]: Replaced 183 ore recipies
+[21:58:29] [Client thread/INFO]: Completed early MinecraftForge initialization
+[21:58:30] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:58:30] [Client thread/INFO]: Searching C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\mods for mods
+[21:58:30] [Client thread/INFO]: Also searching C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\mods\1.7.10 for mods
+[21:58:30] [Client thread/INFO]: Attempting to reparse the mod container DragonBlockC-v1.4.72.jar
+[21:58:31] [Client thread/INFO]: Attempting to reparse the mod container JBRA-Client-v1.6.46.jar
+[21:58:31] [Client thread/INFO]: Attempting to reparse the mod container JRMCore-v1.3.33.jar
+[21:58:35] [Client thread/INFO]: Forge Mod Loader has identified 8 mods to load
+[21:58:35] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, jinryuudragonblockc, jinryuubetterrenderaddon, jinryuujrmcore, dbcaf] at CLIENT
+[21:58:35] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, jinryuudragonblockc, jinryuubetterrenderaddon, jinryuujrmcore, dbcaf] at SERVER
+[21:58:36] [Client thread/ERROR]: An error occured trying to load a proxy into {serverSide=dbcaf.mod.proxy.CommonProxy, clientSide=dbcaf.mod.proxy.ClientProxy}.DragonBlockAF.Main
+java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_281]
+	at cpw.mods.fml.common.ModClassLoader.loadClass(ModClassLoader.java:58) ~[ModClassLoader.class:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_281]
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59) [ProxyInjector.class:?]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:512) [FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) [LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:480) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:878) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	... 41 more
+[21:58:36] [Client thread/ERROR]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
+[21:58:36] [Client thread/ERROR]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{7.10.99.99} [Forge Mod Loader] (forgeBin-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UC	Forge{10.13.4.1558} [Minecraft Forge] (forgeBin-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UC	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UC	jinryuujrmcore{1.3.33} [JinRyuu's JRMCore] (JRMCore-v1.3.33.jar) 
+	UC	jinryuudragonblockc{1.4.72} [Dragon Block C] (DragonBlockC-v1.4.72.jar) 
+	UC	jinryuubetterrenderaddon{1.6.46} [JinRyuu's Better Render Addon] (JBRA-Client-v1.6.46.jar) 
+	UE	dbcaf{0.0.1} [Dragon Block C AF] (modid-1.0.jar) 
+[21:58:36] [Client thread/ERROR]: The following problems were captured during this phase
+[21:58:36] [Client thread/ERROR]: Caught exception from dbcaf
+cpw.mods.fml.common.LoaderException: java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
+
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:76) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:512) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:480) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:878) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+Caused by: java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_281]
+	at cpw.mods.fml.common.ModClassLoader.loadClass(ModClassLoader.java:58) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_281]
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	... 35 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_281]
+	at cpw.mods.fml.common.ModClassLoader.loadClass(ModClassLoader.java:58) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_281]
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59) ~[forgeBin-1.7.10-10.13.4.1558-1.7.10.jar:?]
+	... 35 more
+[21:58:36] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:349]: ---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 4/28/21 9:58 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+cpw.mods.fml.common.LoaderException: java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:76)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:512)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:480)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: dbcaf.mod.proxy.ClientProxy
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at cpw.mods.fml.common.ModClassLoader.loadClass(ModClassLoader.java:58)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at cpw.mods.fml.common.ProxyInjector.inject(ProxyInjector.java:59)
+	... 35 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 41 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 488952272 bytes (466 MB) / 1047527424 bytes (999 MB) up to 15250489344 bytes (14544 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{7.10.99.99} [Forge Mod Loader] (forgeBin-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UC	Forge{10.13.4.1558} [Minecraft Forge] (forgeBin-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UC	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UC	jinryuujrmcore{1.3.33} [JinRyuu's JRMCore] (JRMCore-v1.3.33.jar) 
+	UC	jinryuudragonblockc{1.4.72} [Dragon Block C] (DragonBlockC-v1.4.72.jar) 
+	UC	jinryuubetterrenderaddon{1.6.46} [JinRyuu's Better Render Addon] (JBRA-Client-v1.6.46.jar) 
+	UE	dbcaf{0.0.1} [Dragon Block C AF] (modid-1.0.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.11' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
+[21:58:36] [Client thread/INFO]: [net.minecraft.client.Minecraft:displayCrashReport:359]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\templ\IdeaProjects\DragonBlockAF\eclipse\.\crash-reports\crash-2021-04-28_21.58.36-client.txt
+[21:58:36] [Thread-1/INFO]: [com.intellij.rt.coverage.instrumentation.AbstractIntellijClassfileTransformer$1:run:50]: Class transformation time: 0.638814977s for 4303 classes or 1.4845804717638858E-4s per class
