@@ -1,15 +1,14 @@
 package DragonBlockAF.models;
 
-import net.minecraft.client.model.ModelBiped;
+import JinRyuu.JBRA.ModelBipedDBC;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 
 /**
- * ModelBattleArmor - By Paymon
+ * ModelBipedDBC - Either Mojang or a mod author
  * Created using Tabula 4.1.1
  */
-public class ModelBattleArmor extends ModelBiped
-{
+public class ModelBattleArmor extends ModelBipedDBC {
     public ModelRenderer rightleg;
     public ModelRenderer body;
     public ModelRenderer leftleg;
@@ -22,18 +21,16 @@ public class ModelBattleArmor extends ModelBiped
         this.leftleg.mirror = true;
         this.leftleg.setRotationPoint(2.0F, 12.0F, 0.0F);
         this.leftleg.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.05F);
-
         this.rightleg = new ModelRenderer(this, 0, 16);
         this.rightleg.setRotationPoint(-2.0F, 12.0F, 0.0F);
         this.rightleg.addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, 0.05F);
-
         this.body = new ModelRenderer(this, 16, 16);
         this.body.setRotationPoint(0.0F, 0.0F, 0.0F);
         this.body.addBox(-4.0F, 0.0F, -2.0F, 8, 12, 4, 0.05F);
 
         this.bipedBody.addChild(body);
-        this.bipedLeftLeg.addChild(leftleg);
         this.bipedRightLeg.addChild(rightleg);
+        this.bipedLeftLeg.addChild(leftleg);
     }
 
     @Override
