@@ -33,7 +33,6 @@ public class Main
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        proxyCommon.preInit(event);
 
         ItemArmor.ArmorMaterial battleArmor = EnumHelper.addArmorMaterial("battleArmor",500,new int[]{0,25,25,25}, 30 );
 
@@ -46,7 +45,6 @@ public class Main
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-        proxyCommon.init(event);
 
         GameRegistry.registerItem(battleArmorBlack_chest, "battleArmorBlack_chest");
         GameRegistry.registerItem(battleArmorBlack_leggings, "battleArmorBlack_leggings");
@@ -58,7 +56,6 @@ public class Main
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        proxyCommon.postInit(event);
 
 
     }

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="proxy">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/build/classes/main/DragonBlockAF/proxy" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
