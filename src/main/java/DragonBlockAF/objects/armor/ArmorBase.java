@@ -104,6 +104,7 @@ public class ArmorBase extends ItemArmor
         name = name.substring(0, name.indexOf('_'));
 
         //MODID:textures/models/armor/..../.png
+        //(IE) dbcaf:textures/models/armor/battleArmorBlackWhite_layer_1.png
         return String.format("%s:textures/models/armor/%s_layer_%d.png", reference.MODID, name, slot == 2 ? 2 : 1);
     }
 
