@@ -22,10 +22,25 @@ public class ClientProxy extends CommonProxy
         //Float value is the general size of the model
         ModelBattleArmor battleArmor = new ModelBattleArmor(0.18f);
         ModelBattleArmor battleArmorLegs = new ModelBattleArmor(0.15f);
-
+        //Legs goes into battleArmorLegs the rest of the armor goes into battleArmor
         armorModels.put(Main.battleArmorBlack_chest, battleArmor);
         armorModels.put(Main.battleArmorBlack_leggings, battleArmorLegs);
         armorModels.put(Main.battleArmorBlack_boots, battleArmor);
+        armorModels.put(Main.battleArmorBlackLightGrey_chest,battleArmor);
+        armorModels.put(Main.battleArmorBlackLightGrey_leggings,battleArmorLegs);
+        armorModels.put(Main.battleArmorBlackLightGrey_boots,battleArmor);
+        armorModels.put(Main.battleArmorBlackGrey_chest,battleArmor);
+        armorModels.put(Main.battleArmorBlackGrey_leggings,battleArmorLegs);
+        armorModels.put(Main.battleArmorBlackGrey_boots, battleArmor);
+        armorModels.put(Main.battleArmorBlackBlack_chest,battleArmor);
+        armorModels.put(Main.battleArmorBlackBlack_leggings,battleArmorLegs);
+        armorModels.put(Main.battleArmorBlackBlack_boots, battleArmor);
+        armorModels.put(Main.battleArmorBlackYellow_chest,battleArmor);
+        armorModels.put(Main.battleArmorBlackYellow_leggings,battleArmorLegs);
+        armorModels.put(Main.battleArmorBlackYellow_boots, battleArmor);
+        armorModels.put(Main.battleArmorBlackOrange_chest,battleArmor);
+        armorModels.put(Main.battleArmorBlackOrange_leggings,battleArmorLegs);
+        armorModels.put(Main.battleArmorBlackOrange_boots, battleArmor);
     }
 
     public void preInit(FMLPreInitializationEvent event)

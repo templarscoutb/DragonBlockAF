@@ -1,3 +1,21 @@
 item.dbcaf:battleArmorBlack_chest.name=Black/White Battle Armor Chest
 item.dbcaf:battleArmorBlack_leggings.name=Black/White Battle Armor Faulds
 item.dbcaf:battleArmorBlack_boots.name=Black/White Battle Armor Boots
+item.dbcaf:battleArmorBlackLightGrey_chest.name=Black/Light Grey Battle Armor Chest
+item.dbcaf:battleArmorBlackLightGrey_leggings.name=Black/Light Grey Battle Armor Faulds
+item.dbcaf:battleArmorBlackLightGrey_boots.name=Black/Light Grey Battle Armor Boots
+item.dbcaf:battleArmorBlackGrey_chest.name=Black/Grey Battle Armor Chest
+item.dbcaf:battleArmorBlackGrey_leggings.name=Black/Grey Battle Armor Faulds
+item.dbcaf:battleArmorBlackGrey_boots.name=Black/Grey Battle Armor Boots
+item.dbcaf:battleArmorBlackBlack_chest.name=Black/Black Battle Armor Chest
+item.dbcaf:battleArmorBlackBlack_leggings.name=Black/Black Battle Armor Faulds
+item.dbcaf:battleArmorBlackBlack_boots.name=Black/Black Battle Armor Boots
+item.dbcaf:battleArmorBlackYellow_chest.name=Black/Yellow Battle Armor Chest
+item.dbcaf:battleArmorBlackYellow_leggings.name=Black/Yellow Battle Armor Faulds
+item.dbcaf:battleArmorBlackYellow_boots.name=Black/Yellow Battle Armor Boots
+item.dbcaf:battleArmorBlackOrange_chest.name=Black/Orange Battle Armor Chest
+item.dbcaf:battleArmorBlackOrange_leggings.name=Black/Orange Battle Armor Faulds
+item.dbcaf:battleArmorBlackOrange_boots.name=Black/Orange Battle Armor Boots
+
+
+itemGroup.tabDragonBlockAF=Dragon Block AF
