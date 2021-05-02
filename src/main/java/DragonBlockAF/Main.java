@@ -29,6 +29,7 @@ public class Main
     @SidedProxy(clientSide = reference.CLIENT, serverSide = reference.SERVER)
     public static CommonProxy proxyCommon;
 
+    //Black Armors
     public static Item battleArmorBlack_chest;
     public static Item battleArmorBlack_leggings;
     public static Item battleArmorBlack_boots;
@@ -47,6 +48,38 @@ public class Main
     public static Item battleArmorBlackOrange_chest;
     public static Item battleArmorBlackOrange_leggings;
     public static Item battleArmorBlackOrange_boots;
+    public static Item battleArmorBlackRed_chest;
+    public static Item battleArmorBlackRed_leggings;
+    public static Item battleArmorBlackRed_boots;
+    public static Item battleArmorBlackBrown_chest;
+    public static Item battleArmorBlackBrown_leggings;
+    public static Item battleArmorBlackBrown_boots;
+    public static Item battleArmorBlackLime_chest;
+    public static Item battleArmorBlackLime_leggings;
+    public static Item battleArmorBlackLime_boots;
+    public static Item battleArmorBlackGreen_chest;
+    public static Item battleArmorBlackGreen_leggings;
+    public static Item battleArmorBlackGreen_boots;
+    public static Item battleArmorBlackLightBlue_chest;
+    public static Item battleArmorBlackLightBlue_leggings;
+    public static Item battleArmorBlackLightBlue_boots;
+    public static Item battleArmorBlackCyan_chest;
+    public static Item battleArmorBlackCyan_leggings;
+    public static Item battleArmorBlackCyan_boots;
+    public static Item battleArmorBlackBlue_chest;
+    public static Item battleArmorBlackBlue_leggings;
+    public static Item battleArmorBlackBlue_boots;
+    public static Item battleArmorBlackPink_chest;
+    public static Item battleArmorBlackPink_leggings;
+    public static Item battleArmorBlackPink_boots;
+    public static Item battleArmorBlackMagenta_chest;
+    public static Item battleArmorBlackMagenta_leggings;
+    public static Item battleArmorBlackMagenta_boots;
+    public static Item battleArmorBlackPurple_chest;
+    public static Item battleArmorBlackPurple_leggings;
+    public static Item battleArmorBlackPurple_boots;
+
+    //White Armors
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -81,7 +114,45 @@ public class Main
         battleArmorBlackOrange_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackOrange_leggings");
         battleArmorBlackOrange_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackOrange_boots");
         //Black Red armor
-
+        battleArmorBlackRed_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackRed_chest");
+        battleArmorBlackRed_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackRed_leggings");
+        battleArmorBlackRed_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackRed_boots");
+        //Black brown armor
+        battleArmorBlackBrown_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackBrown_chest");
+        battleArmorBlackBrown_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackBrown_leggings");
+        battleArmorBlackBrown_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackBrown_boots");
+        //Black lime armor
+        battleArmorBlackLime_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackLime_chest");
+        battleArmorBlackLime_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackLime_leggings");
+        battleArmorBlackLime_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackLime_boots");
+        //Black green armor
+        battleArmorBlackGreen_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackGreen_chest");
+        battleArmorBlackGreen_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackGreen_leggings");
+        battleArmorBlackGreen_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackGreen_boots");
+        //Black light blue armor
+        battleArmorBlackLightBlue_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackLightBlue_chest");
+        battleArmorBlackLightBlue_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackLightBlue_leggings");
+        battleArmorBlackLightBlue_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackLightBlue_boots");
+        //Black cyan armor
+        battleArmorBlackCyan_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackCyan_chest");
+        battleArmorBlackCyan_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackCyan_leggings");
+        battleArmorBlackCyan_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackCyan_boots");
+        //Black Blue armor
+        battleArmorBlackBlue_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackBlue_chest");
+        battleArmorBlackBlue_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackBlue_leggings");
+        battleArmorBlackBlue_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackBlue_boots");
+        //Black Pink armor
+        battleArmorBlackPink_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackPink_chest");
+        battleArmorBlackPink_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackPink_leggings");
+        battleArmorBlackPink_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackPink_boots");
+        //Black Magenta armor
+        battleArmorBlackMagenta_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackMagenta_chest");
+        battleArmorBlackMagenta_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackMagenta_leggings");
+        battleArmorBlackMagenta_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackMagenta_boots");
+        //Black Purple armor
+        battleArmorBlackPurple_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlackPurple_chest");
+        battleArmorBlackPurple_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlackPurple_leggings");
+        battleArmorBlackPurple_boots = new ArmorBase(battleArmor, 1, 3).setUnlocalizedName("battleArmorBlackPurple_boots");
     }
 
     @Mod.EventHandler
@@ -115,6 +186,50 @@ public class Main
         GameRegistry.registerItem(battleArmorBlackOrange_leggings,"battleArmorBlackOrange_leggings");
         GameRegistry.registerItem(battleArmorBlackOrange_boots,"battleArmorBlackOrange_boots");
 
+        GameRegistry.registerItem(battleArmorBlackRed_chest,"battleArmorBlackRed_chest");
+        GameRegistry.registerItem(battleArmorBlackRed_leggings,"battleArmorBlackRed_leggings");
+        GameRegistry.registerItem(battleArmorBlackRed_boots,"battleArmorBlackRed_boots");
+
+        GameRegistry.registerItem(battleArmorBlackBrown_chest,"battleArmorBlackBrown_chest");
+        GameRegistry.registerItem(battleArmorBlackBrown_leggings,"battleArmorBlackBrown_leggings");
+        GameRegistry.registerItem(battleArmorBlackBrown_boots,"battleArmorBlackBrown_boots");
+
+        GameRegistry.registerItem(battleArmorBlackLime_chest,"battleArmorBlackLime_chest");
+        GameRegistry.registerItem(battleArmorBlackLime_leggings,"battleArmorBlackLime_leggings");
+        GameRegistry.registerItem(battleArmorBlackLime_boots,"battleArmorBlackLime_boots");
+
+        GameRegistry.registerItem(battleArmorBlackGreen_chest,"battleArmorBlackGreen_chest");
+        GameRegistry.registerItem(battleArmorBlackGreen_leggings,"battleArmorBlackGreen_leggings");
+        GameRegistry.registerItem(battleArmorBlackGreen_boots,"battleArmorBlackGreen_boots");
+
+        GameRegistry.registerItem(battleArmorBlackLightBlue_chest,"battleArmorBlackLightBlue_chest");
+        GameRegistry.registerItem(battleArmorBlackLightBlue_leggings,"battleArmorBlackLightBlue_leggings");
+        GameRegistry.registerItem(battleArmorBlackLightBlue_boots,"battleArmorBlackLightBlue_boots");
+
+        GameRegistry.registerItem(battleArmorBlackCyan_chest,"battleArmorBlackCyan_chest");
+        GameRegistry.registerItem(battleArmorBlackCyan_leggings,"battleArmorBlackCyan_leggings");
+        GameRegistry.registerItem(battleArmorBlackCyan_boots,"battleArmorBlackCyan_boots");
+
+        GameRegistry.registerItem(battleArmorBlackBlue_chest,"battleArmorBlackBlue_chest");
+        GameRegistry.registerItem(battleArmorBlackBlue_leggings,"battleArmorBlackBlue_leggings");
+        GameRegistry.registerItem(battleArmorBlackBlue_boots,"battleArmorBlackBlue_boots");
+
+        GameRegistry.registerItem(battleArmorBlackPink_chest,"battleArmorBlackPink_chest");
+        GameRegistry.registerItem(battleArmorBlackPink_leggings,"battleArmorBlackPink_leggings");
+        GameRegistry.registerItem(battleArmorBlackPink_boots,"battleArmorBlackPink_boots");
+
+        GameRegistry.registerItem(battleArmorBlackMagenta_chest,"battleArmorBlackMagenta_chest");
+        GameRegistry.registerItem(battleArmorBlackMagenta_leggings,"battleArmorBlackMagenta_leggings");
+        GameRegistry.registerItem(battleArmorBlackMagenta_boots,"battleArmorBlackMagenta_boots");
+
+        GameRegistry.registerItem(battleArmorBlackPurple_chest,"battleArmorBlackPurple_chest");
+        GameRegistry.registerItem(battleArmorBlackPurple_leggings,"battleArmorBlackPurple_leggings");
+        GameRegistry.registerItem(battleArmorBlackPurple_boots,"battleArmorBlackPurple_boots");
+
+
+        //White armor sets
+
+
         //Renderer for custom armor model
         ClientProxy.register_renderers();
 
@@ -147,6 +262,45 @@ public class Main
         GameRegistry.addRecipe(new ItemStack(battleArmorBlackOrange_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 14)});
         GameRegistry.addRecipe(new ItemStack(battleArmorBlackOrange_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 14)});
         //Black Red armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackRed_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackRed_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackRed_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 1)});
+        //Black brown armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackBrown_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 3)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackBrown_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 3)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackBrown_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 3)});
+        //Black lime armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackLime_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 10)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackLime_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 10)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackLime_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 10)});
+        //Black green armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackGreen_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 2)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackGreen_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 2)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackGreen_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 2)});
+        //Black light blue armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackLightBlue_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 12)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackLightBlue_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 12)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackLightBlue_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 12)});
+        //Black cyan armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackCyan_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 6)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackCyan_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 6)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackCyan_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 6)});
+        //Black Blue armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackBlue_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 4)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackBlue_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 4)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackBlue_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 4)});
+        //Black Pink armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackPink_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 9)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackPink_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 9)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackPink_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 9)});
+        //Black Magenta armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackMagenta_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 13)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackMagenta_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 13)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackMagenta_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 13)});
+        //Black Purple Armor
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackPurple_chest), new Object[]{"III","IAI","III", 'A', battleArmorBlack_chest, 'I', new ItemStack(Items.dye, 1, 5)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackPurple_leggings), new Object[]{"III","IAI","III", 'A', battleArmorBlack_leggings, 'I', new ItemStack(Items.dye, 1, 5)});
+        GameRegistry.addRecipe(new ItemStack(battleArmorBlackPurple_boots), new Object[]{"III","IAI","III", 'A', battleArmorBlack_boots, 'I', new ItemStack(Items.dye, 1, 5)});
     }
 
     @Mod.EventHandler
