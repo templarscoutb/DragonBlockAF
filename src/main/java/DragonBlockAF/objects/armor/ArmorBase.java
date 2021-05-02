@@ -4,7 +4,6 @@ import DragonBlockAF.models.ModelBattleArmor;
 import DragonBlockAF.proxy.ClientProxy;
 import DragonBlockAF.util.reference;
 import DragonBlockAF.util.resource;
-import JinRyuu.JBRA.ModelBipedDBC;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.model.ModelBiped;
@@ -17,7 +16,7 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class ArmorBase extends ItemArmor
+public class ArmorBase extends ItemArmor 
 {
 
     public ArmorBase(ArmorMaterial material, int renderIndex, int type)
@@ -55,46 +54,44 @@ public class ArmorBase extends ItemArmor
 
     @Override
     @SideOnly(Side.CLIENT)
-    public ModelBipedDBC getArmorModel (EntityLivingBase entityLiving, ItemStack itemstack, int armorSlot)
+    public ModelBiped getArmorModel (EntityLivingBase entityLiving, ItemStack itemstack, int armorSlot)
     {
-        ModelBattleArmor armorModel = ClientProxy.armorModels.get(this);
+            ModelBiped armorModels = ClientProxy.armorModels.get(this);
 
-        if(armorModel != null){
-            armorModel.bipedHead.showModel = armorSlot == 0;
-            armorModel.bipedBody.showModel = armorSlot == 1 || armorSlot == 2;
-            armorModel.bipedRightArm.showModel = armorSlot == 1;
-            armorModel.bipedLeftArm.showModel = armorSlot == 1;
-            armorModel.bipedRightLeg.showModel = armorSlot == 2 || armorSlot == 3;
-            armorModel.bipedLeftLeg.showModel = armorSlot == 2 || armorSlot == 3;
+        if(armorModels != null)
+        {
+            armorModels.bipedBody.showModel = armorSlot == 1 || armorSlot ==2;
+            armorModels.bipedRightLeg.showModel = armorSlot  == 2 || armorSlot  == 3;
+            armorModels.bipedLeftLeg.showModel = armorSlot  == 2 || armorSlot  == 3;
 
-            armorModel.isSneak = entityLiving.isSneaking();
-            armorModel.isRiding = entityLiving.isRiding();
-            armorModel.isChild = entityLiving.isChild();
+            armorModels.isSneak = entityLiving.isSneaking();
+            armorModels.isRiding = entityLiving.isRiding();
+            armorModels.isChild = entityLiving.isChild();
 
-            armorModel.heldItemRight = 0;
-            armorModel.aimedBow = false;
+            armorModels.heldItemRight = 0;
+            armorModels.aimedBow = false;
 
             EntityPlayer player = (EntityPlayer)entityLiving;
 
             ItemStack held_item = player.getEquipmentInSlot(0);
 
             if (held_item != null){
-                armorModel.heldItemRight = 1;
+                armorModels.heldItemRight = 1;
 
                 if (player.getItemInUseCount() > 0){
 
                     EnumAction enumaction = held_item.getItemUseAction();
 
                     if (enumaction == EnumAction.bow){
-                        armorModel.aimedBow = true;
+                        armorModels.aimedBow = true;
                     }else if (enumaction == EnumAction.block){
-                        armorModel.heldItemRight = 3;
+                        armorModels.heldItemRight = 3;
                     }
                 }
             }
         }
 
-        return armorModel;
+        return armorModels;
     }
 
     @Override
@@ -104,7 +101,7 @@ public class ArmorBase extends ItemArmor
         name = name.substring(0, name.indexOf('_'));
 
         //MODID:textures/models/armor/..../.png
-        //(IE) dbcaf:textures/models/armor/battleArmorBlackWhite_layer_1.png
+        //(IE) dbcaf:textures/models/armor/battleArmorBlack_layer_1.png
         return String.format("%s:textures/models/armor/%s_layer_%d.png", reference.MODID, name, slot == 2 ? 2 : 1);
     }
 

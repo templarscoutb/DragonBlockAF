@@ -13,15 +13,15 @@ import java.util.Map;
 
 public class ClientProxy extends CommonProxy
 {
-    public static final Map<Item, ModelBattleArmor> armorModels = new HashMap<Item, ModelBattleArmor>();
+    public static final Map<Item, ModelBiped> armorModels = new HashMap<Item, ModelBiped>();
 
     public static void register_renderers()
     {
         //Registering the custom armor model and attaching each armor item to it
 
         //Float value is the general size of the model
-        ModelBattleArmor battleArmor = new ModelBattleArmor();
-        ModelBattleArmor battleArmorLegs = new ModelBattleArmor();
+        ModelBattleArmor battleArmor = new ModelBattleArmor(0.18f);
+        ModelBattleArmor battleArmorLegs = new ModelBattleArmor(0.15f);
 
         armorModels.put(Main.battleArmorBlack_chest, battleArmor);
         armorModels.put(Main.battleArmorBlack_leggings, battleArmorLegs);

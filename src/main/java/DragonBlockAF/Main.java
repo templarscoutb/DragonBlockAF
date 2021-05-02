@@ -38,7 +38,7 @@ public class Main
         //Config handling
 
         //Material for battle armor
-        ItemArmor.ArmorMaterial battleArmor = EnumHelper.addArmorMaterial("battleArmor",500,new int[]{0,25,25,25}, 30 );
+        ItemArmor.ArmorMaterial battleArmor = EnumHelper.addArmorMaterial("battleArmor",27,new int[]{0,9,7,4}, 10 );
 
         battleArmorBlack_chest = new ArmorBase(battleArmor, 1, 1).setUnlocalizedName("battleArmorBlack_chest");
         battleArmorBlack_leggings = new ArmorBase(battleArmor, 1, 2).setUnlocalizedName("battleArmorBlack_leggings");
